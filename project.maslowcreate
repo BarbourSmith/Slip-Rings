@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 20
+                            "ioValue": 105
                         }
                     ]
                 },
@@ -46,13 +46,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.12445095168374817,
-                    "y": 0.6704980842911877,
+                    "x": 0.12225475841874085,
+                    "y": 0.6513409961685823,
                     "uniqueID": 421650,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 69.5
                         }
                     ]
                 },
@@ -70,6 +70,14 @@
                         "source": "www.example.com",
                         "totalNeeded": 1
                     }
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.6325036603221084,
+                    "y": 0.8084291187739464,
+                    "uniqueID": 881352,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -100,6 +108,13 @@
                     "ap2Primary": true,
                     "ap1ID": 956834,
                     "ap2ID": 401871
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 956834,
+                    "ap2ID": 881352
                 },
                 {
                     "ap1Name": "geometry",
